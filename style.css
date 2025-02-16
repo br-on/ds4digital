@@ -814,6 +814,7 @@ body.light-mode .video-bg:before {
   align-items: center;
   flex-wrap: wrap;
   width: calc(100% + 20px);
+  gap: 10px;
 }
 
 .app-card {
@@ -838,9 +839,9 @@ body.light-mode .video-bg:before {
   margin-right: 12px;
   flex-shrink: 0;
 }
-.app-card + .app-card {
+/* .app-card + .app-card {
   margin-left: 20px;
-}
+} */
 .app-card span {
   display: flex;
   align-items: center;
@@ -886,4 +887,67 @@ body.light-mode .video-bg:before {
 ::-webkit-scrollbar-thumb {
   background: var(--scrollbar-bg);
   border-radius: 10px;
+}
+
+.string-system {
+    padding: 0.5em 1em; /* Aumentando o espaçamento interno */
+    border-radius: 12px; /* Bordas arredondadas */
+    font-family: 'Arial', sans-serif; /* Definindo a fonte */
+    font-size: 0.8em; /* Aumentando o tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center; /* Alinhando o texto ao centro */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transições para efeito suave */
+}
+
+.string-system:hover {
+    transform: translateY(-4px); /* Levanta o elemento ao passar o mouse */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3); /* Aumentando a sombra no hover */
+}
+
+
+.color-ddab {
+    background-color: #cf4af3; /* Cor de fundo roxa */
+    border: solid 1.5px #6b1085; /* Borda roxa escura */
+    color: #f6e7fa; /* Cor do texto em um tom claro */
+}
+.color-saudedigital {
+    background-color: #4aedf3; /* Cor de fundo roxa */
+    border: solid 1.5px #108575; /* Borda roxa escura */
+    color: #17352b; /* Cor do texto em um tom claro */
+}
+.color-regulacao {
+    background-color: #6cf34a; /* Cor de fundo roxa */
+    border: solid 1.5px #278510; /* Borda roxa escura */
+    color: #173535; /* Cor do texto em um tom claro */
+}
+.color-vigilancia {
+    background-color: #f3f04a; 
+    border: solid 1.5px #857d10; 
+    color: #353317;
+}
+.color-rh {
+    background-color: #f36c4a; 
+    border: solid 1.5px #852710; 
+    color: #352017;
+}
+.color-farmacia {
+    background-color: #f34aad; 
+    border: solid 1.5px #851062; 
+    color: #351729;
+}
+.color-almoxarifado {
+    background-color: #f34a58; 
+    border: solid 1.5px #851016; 
+    color: #351717;
+}
+.color-admfin {
+    background-color: #771515; 
+    border: solid 1.5px #300d0d; 
+    color: #75afb6;
+}
+.color-analistas {
+    background-color: #1ab391; 
+    border: solid 1.5px #065f5f; 
+    color: #32584f;
 }
